@@ -1,0 +1,258 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Default4 : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        Label8.Text = DateTime.Now.Hour.ToString();
+        float a = Convert.ToInt32(Label8.Text);
+        if (a >= 8.45 && a <= 00.00)
+        {
+            lbcine0.ForeColor = System.Drawing.Color.Blue;
+            lbcine1.ForeColor = System.Drawing.Color.Blue;
+            lbcine2.ForeColor = System.Drawing.Color.Blue;
+            lbcine3.ForeColor = System.Drawing.Color.Blue;
+            lbcine4.ForeColor = System.Drawing.Color.Blue;
+        }
+        else
+        {
+            lbcine0.ForeColor = System.Drawing.Color.Red;
+            lbcine0.Enabled = false;
+
+            lbcine1.ForeColor = System.Drawing.Color.Red;
+            lbcine1.Enabled = false;
+
+            lbcine2.ForeColor = System.Drawing.Color.Red;
+            lbcine2.Enabled = false;
+
+            lbcine3.ForeColor = System.Drawing.Color.Red;
+            lbcine3.Enabled = false;
+
+            lbcine4.ForeColor = System.Drawing.Color.Red;
+            lbcine4.Enabled = false;
+
+        }
+
+
+
+        if (a >= 11.45 && a <= 00.00)
+        {
+            lbcine5.ForeColor = System.Drawing.Color.Blue;
+            lbcine6.ForeColor = System.Drawing.Color.Blue;
+            lbcine7.ForeColor = System.Drawing.Color.Blue;
+            lbcine8.ForeColor = System.Drawing.Color.Blue;
+            lbcine9.ForeColor = System.Drawing.Color.Blue;
+        }
+        else
+        {
+            lbcine5.ForeColor = System.Drawing.Color.Red;
+            lbcine5.Enabled = false;
+
+            lbcine6.ForeColor = System.Drawing.Color.Red;
+            lbcine6.Enabled = false;
+
+            lbcine7.ForeColor = System.Drawing.Color.Red;
+            lbcine7.Enabled = false;
+
+            lbcine8.ForeColor = System.Drawing.Color.Red;
+            lbcine8.Enabled = false;
+
+            lbcine9.ForeColor = System.Drawing.Color.Red;
+            lbcine9.Enabled = false;
+        }
+
+
+
+        if (a >= 14.45 && a <= 00.00)
+        {
+            lbcine10.ForeColor = System.Drawing.Color.Blue;
+            lbcine11.ForeColor = System.Drawing.Color.Blue;
+            lbcine12.ForeColor = System.Drawing.Color.Blue;
+            lbcine13.ForeColor = System.Drawing.Color.Blue;
+            lbcine14.ForeColor = System.Drawing.Color.Blue;
+        }
+        else
+        {
+            lbcine10.ForeColor = System.Drawing.Color.Red;
+            lbcine10.Enabled = false;
+
+            lbcine11.ForeColor = System.Drawing.Color.Red;
+            lbcine11.Enabled = false;
+
+            lbcine12.ForeColor = System.Drawing.Color.Red;
+            lbcine12.Enabled = false;
+
+            lbcine13.ForeColor = System.Drawing.Color.Red;
+            lbcine13.Enabled = false;
+
+            lbcine14.ForeColor = System.Drawing.Color.Red;
+            lbcine14.Enabled = false;
+
+        }
+
+
+        if (a >=17.45 && a <= 00.00)
+        {
+            lbcine15.ForeColor = System.Drawing.Color.Blue;
+            lbcine16.ForeColor = System.Drawing.Color.Blue;
+            lbcine17.ForeColor = System.Drawing.Color.Blue;
+            lbcine18.ForeColor = System.Drawing.Color.Blue;
+            lbcine19.ForeColor = System.Drawing.Color.Blue;
+        }
+        else
+        {
+            lbcine15.ForeColor = System.Drawing.Color.Red;
+            lbcine15.Enabled = false;
+
+            lbcine16.ForeColor = System.Drawing.Color.Red;
+            lbcine16.Enabled = false;
+
+            lbcine17.ForeColor = System.Drawing.Color.Red;
+            lbcine17.Enabled = false;
+
+            lbcine18.ForeColor = System.Drawing.Color.Red;
+            lbcine18.Enabled = false;
+
+            lbcine19.ForeColor = System.Drawing.Color.Red;
+            lbcine19.Enabled = false;
+        }
+
+
+        if (a >= 00.00 && a < 20.45)
+        {
+            lbcine20.ForeColor = System.Drawing.Color.Blue;
+            lbcine21.ForeColor = System.Drawing.Color.Blue;
+            lbcine22.ForeColor = System.Drawing.Color.Blue;
+            lbcine23.ForeColor = System.Drawing.Color.Blue;
+            lbcine24.ForeColor = System.Drawing.Color.Blue;
+        }
+        else
+        {
+            lbcine20.ForeColor = System.Drawing.Color.Red;
+            lbcine20.Enabled = false;
+
+            lbcine21.ForeColor = System.Drawing.Color.Red;
+            lbcine21.Enabled = false;
+
+            lbcine22.ForeColor = System.Drawing.Color.Red;
+            lbcine22.Enabled = false;
+
+            lbcine23.ForeColor = System.Drawing.Color.Red;
+            lbcine23.Enabled = false;
+
+            lbcine24.ForeColor = System.Drawing.Color.Red;
+            lbcine24.Enabled = false;
+        }
+
+    }
+
+    protected void lbcine0_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void LinkButton3_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void LinkButton7_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void LinkButton19_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine2_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine3_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine5_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine6_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine7_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine9_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine10_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine11_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine12_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine13_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine14_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine15_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine16_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine17_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("book.aspx");
+    }
+    protected void lbcine18_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("SiteMap.aspx");
+    }
+    protected void lbcine19_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("SiteMap.aspx");
+    }
+    protected void lbcine20_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("SiteMap.aspx");
+    }
+    protected void lbcine21_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("SiteMap.aspx");
+    }
+    protected void lbcine22_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("SiteMap.aspx");
+    }
+    protected void lbcine24_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("SiteMap.aspx");
+    }
+    protected void Timer1_Tick(object sender, EventArgs e)
+    {
+
+    }
+}

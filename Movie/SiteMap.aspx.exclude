@@ -1,0 +1,211 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HomePage.master" AutoEventWireup="true" CodeFile="SiteMap.aspx.cs" Inherits="_Default" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+    <br />
+    <div align="left" dir="rtl" 
+        
+        style="background-position: left top; border-top-width: thin; background-image: url('seats/sprite_x.png'); background-repeat: repeat-x; height: 71px; background-color: #FFFF00; margin-right: 54px;">
+
+&nbsp;&nbsp;
+        <br />
+        <asp:Button ID="btnproceed" runat="server" Text="Proceed" ForeColor="Black" 
+        BackColor="Red" Height="45px" style="margin-right: 19px" Width="116px" 
+            Font-Bold="True" Font-Size="19pt" />
+</div>
+<br /><br />
+<div>
+<center>
+<table>
+<tr>
+<th colspan="2">RECLINER-RS.400
+</th>
+</tr>
+<tr>
+<td style="width: 9px">
+<asp:Label ID="Label6" runat="server" Text="F" Font-Bold="True" Font-Size="12pt"></asp:Label>
+</td>
+<td>
+
+    <asp:Button ID="F1" runat="server" onclick="F1_Click2" Text="1" Width="23px" />
+
+<asp:Button ID="F2" class="btn" runat="server" Text="2" Font-Bold="True" 
+        Font-Size="10pt" onclick="F2_Click"/>
+<asp:Button ID="F3" class="btn" runat="server" Text="3" Font-Bold="True" 
+        Font-Size="10pt" onclick="F3_Click"/>
+<asp:Button ID="F4" class="btn" runat="server" Text="4" Font-Bold="True" 
+        Font-Size="10pt" onclick="F4_Click"/>
+<asp:Button ID="F5" class="btn" runat="server" Text="5" Font-Bold="True" 
+        Font-Size="10pt" onclick="F5_Click"/>
+<asp:Button ID="F6" class="btn" runat="server" Text="6" Font-Bold="True" 
+        Font-Size="10pt" onclick="F6_Click"/>
+<asp:Button ID="F7" class="btn" runat="server" Text="7" Font-Bold="True" 
+        Font-Size="10pt" onclick="F7_Click"/>
+<asp:Button ID="F8" class="btn" runat="server" Text="8" Font-Bold="True" 
+        Font-Size="10pt" onclick="F8_Click"/>
+<asp:Button ID="F9" class="btn" runat="server" Text="9" Font-Bold="True" 
+        Font-Size="10pt" onclick="F9_Click"/>
+<asp:Button ID="F10" class="btn" runat="server" Text="10" Font-Bold="True" 
+        Font-Size="10pt" onclick="F10_Click"/>
+</td>
+</tr>
+
+<tr>
+<th colspan="2">
+<br /><br />
+PRIME NORMAL-RS.330
+</th>
+</tr>
+<tr>
+<td style="width: 9px">
+<asp:Label ID="Label5" runat="server" Text="E" Font-Bold="True" Font-Size="12pt"></asp:Label>
+</td>
+<td>
+<asp:Button ID="E1" class="btn" runat="server" Text="1" Font-Bold="True" 
+        Font-Size="10pt" onclick="E1_Click"/>
+<asp:Button ID="E2" class="btn" runat="server" Text="2" Font-Bold="True" 
+        Font-Size="10pt" onclick="E2_Click"/>
+<asp:Button ID="E3" class="btn" runat="server" Text="3" Font-Bold="True" 
+        Font-Size="10pt" onclick="E3_Click"/>
+<asp:Button ID="E4" class="btn" runat="server" Text="4" Font-Bold="True" 
+        Font-Size="10pt" onclick="E4_Click"/>
+<asp:Button ID="E5" class="btn" runat="server" Text="5" Font-Bold="True" 
+        Font-Size="10pt" onclick="E5_Click" style="width: 21px"/>
+<asp:Button ID="E6" class="btn" runat="server" Text="6" Font-Bold="True" 
+        Font-Size="10pt" onclick="E6_Click"/>
+<asp:Button ID="E7" class="btn" runat="server" Text="7" Font-Bold="True" 
+        Font-Size="10pt" onclick="E7_Click"/>
+<asp:Button ID="E8" class="btn" runat="server" Text="8" Font-Bold="True" 
+        Font-Size="10pt" onclick="E8_Click"/>
+<asp:Button ID="E9" class="btn" runat="server" Text="9" Font-Bold="True" 
+        Font-Size="10pt" onclick="E9_Click"/>
+<asp:Button ID="E10" class="btn" runat="server" Text="10" Font-Bold="True" 
+        Font-Size="10pt" onclick="E10_Click"/>
+</td>
+</tr>
+<tr>
+<td style="width: 9px">
+<asp:Label ID="Label4" runat="server" Text="D" Font-Bold="True" Font-Size="12pt"></asp:Label>
+</td>
+<td>
+<asp:Button ID="D1" class="btn" runat="server" Text="1" Font-Bold="True" 
+        Font-Size="10pt" onclick="D1_Click"/>
+<asp:Button ID="D2" class="btn" runat="server" Text="2" Font-Bold="True" 
+        Font-Size="10pt" onclick="D2_Click" style="width: 21px"/>
+<asp:Button ID="D3" class="btn" runat="server" Text="3" Font-Bold="True" 
+        Font-Size="10pt" onclick="D3_Click"/>
+<asp:Button ID="D4" class="btn" runat="server" Text="4" Font-Bold="True" 
+        Font-Size="10pt" onclick="D4_Click"/>
+<asp:Button ID="D5" class="btn" runat="server" Text="5" Font-Bold="True" 
+        Font-Size="10pt" onclick="D5_Click"/>
+<asp:Button ID="D6" class="btn" runat="server" Text="6" Font-Bold="True" 
+        Font-Size="10pt" onclick="D6_Click"/>
+<asp:Button ID="D7" class="btn" runat="server" Text="7" Font-Bold="True" 
+        Font-Size="10pt" onclick="D7_Click"/>
+<asp:Button ID="D8" class="btn" runat="server" Text="8" Font-Bold="True" 
+        Font-Size="10pt" onclick="D8_Click"/>
+<asp:Button ID="D9" class="btn" runat="server" Text="9" Font-Bold="True" 
+        Font-Size="10pt" onclick="D9_Click"/>
+<asp:Button ID="D10" class="btn" runat="server" Text="10" Font-Bold="True" 
+        Font-Size="10pt" onclick="D10_Click"/>
+</td>
+</tr>
+<tr>
+<td style="width: 9px">
+<asp:Label ID="Label3" runat="server" Text="C" Font-Bold="True" Font-Size="12pt"></asp:Label>
+</td>
+<td>
+<asp:Button ID="C1" class="btn" runat="server" Text="1" Font-Bold="True" 
+        Font-Size="10pt" onclick="C1_Click"/>
+<asp:Button ID="C2" class="btn" runat="server" Text="2" Font-Bold="True" 
+        Font-Size="10pt" onclick="C2_Click"/>
+<asp:Button ID="C3" class="btn" runat="server" Text="3" Font-Bold="True" 
+        Font-Size="10pt" onclick="C3_Click"/>
+<asp:Button ID="C4" class="btn" runat="server" Text="4" Font-Bold="True" 
+        Font-Size="10pt" onclick="C4_Click"/>
+<asp:Button ID="C5" class="btn" runat="server" Text="5" Font-Bold="True" 
+        Font-Size="10pt" onclick="C5_Click"/>
+<asp:Button ID="C6" class="btn" runat="server" Text="6" Font-Bold="True" 
+        Font-Size="10pt" onclick="C6_Click"/>
+<asp:Button ID="C7" class="btn" runat="server" Text="7" Font-Bold="True" 
+        Font-Size="10pt" onclick="C7_Click"/>
+<asp:Button ID="C8" class="btn" runat="server" Text="8" Font-Bold="True" 
+        Font-Size="10pt" onclick="C8_Click"/>
+<asp:Button ID="C9" class="btn" runat="server" Text="9" Font-Bold="True" 
+        Font-Size="10pt" onclick="C9_Click"/>
+<asp:Button ID="C10" class="btn" runat="server" Text="10" Font-Bold="True" 
+        Font-Size="10pt" onclick="C10_Click"/>
+</td>
+</tr>
+
+<tr>
+<th colspan="2">
+<br /><br />
+STAR NORMAL-RS.220
+</th>
+</tr>
+<tr>
+<td style="width: 9px">
+<asp:Label ID="Label2" runat="server" Text="B" Font-Bold="True" Font-Size="12pt"></asp:Label>
+</td>
+<td>
+<asp:Button ID="B1" class="btn" runat="server" Text="1" Font-Bold="True" 
+        Font-Size="10pt" onclick="B1_Click"/>
+<asp:Button ID="B2" class="btn" runat="server" Text="2" Font-Bold="True" 
+        Font-Size="10pt" onclick="B2_Click"/>
+<asp:Button ID="B3" class="btn" runat="server" Text="3" Font-Bold="True" 
+        Font-Size="10pt" onclick="B3_Click"/>
+<asp:Button ID="B4" class="btn" runat="server" Text="4" Font-Bold="True" 
+        Font-Size="10pt" onclick="B4_Click"/>
+<asp:Button ID="B5" class="btn" runat="server" Text="5" Font-Bold="True" 
+        Font-Size="10pt" onclick="B5_Click"/>
+<asp:Button ID="B6" class="btn" runat="server" Text="6" Font-Bold="True" 
+        Font-Size="10pt" onclick="B6_Click"/>
+<asp:Button ID="B7" class="btn" runat="server" Text="7" Font-Bold="True" 
+        Font-Size="10pt" onclick="B7_Click"/>
+<asp:Button ID="B8" class="btn" runat="server" Text="8" Font-Bold="True" 
+        Font-Size="10pt" onclick="B8_Click"/>
+<asp:Button ID="B9" class="btn" runat="server" Text="9" Font-Bold="True" 
+        Font-Size="10pt" onclick="B9_Click"/>
+<asp:Button ID="B10" class="btn" runat="server" Text="10" Font-Bold="True" 
+        Font-Size="10pt" onclick="B10_Click"/>
+</td>
+</tr>
+<tr>
+<td style="width: 9px">
+<asp:Label ID="Label1" runat="server" Text="A" Font-Bold="True" Font-Size="12pt"></asp:Label>
+</td>
+<td>
+<asp:Button ID="A1" class="btn" runat="server" Text="1" Font-Bold="True" 
+        Font-Size="10pt" onclick="A1_Click1"/>
+<asp:Button ID="A2" class="btn" runat="server" Text="2" Font-Bold="True" 
+        Font-Size="10pt" onclick="A2_Click"/>
+<asp:Button ID="A3" class="btn" runat="server" Text="3" Font-Bold="True" 
+        Font-Size="10pt" onclick="A3_Click"/>
+<asp:Button ID="A4" class="btn" runat="server" Text="4" Font-Bold="True" 
+        Font-Size="10pt" onclick="A4_Click"/>
+<asp:Button ID="A5" class="btn" runat="server" Text="5" Font-Bold="True" 
+        Font-Size="10pt" onclick="A5_Click"/>
+<asp:Button ID="A6" class="btn" runat="server" Text="6" Font-Bold="True" 
+        Font-Size="10pt" onclick="A6_Click"/>
+<asp:Button ID="A7" class="btn" runat="server" Text="7" Font-Bold="True" 
+        Font-Size="10pt" onclick="A7_Click"/>
+<asp:Button ID="A8" class="btn" runat="server" Text="8" Font-Bold="True" 
+        Font-Size="10pt" onclick="A8_Click"/>
+<asp:Button ID="A9" class="btn" runat="server" Text="9" Font-Bold="True" 
+        Font-Size="10pt" onclick="A9_Click"/>
+<asp:Button ID="A10" class="btn" runat="server" Text="10" Font-Bold="True" 
+        Font-Size="10pt" onclick="A10_Click"/>
+</td>
+</tr>
+</table>
+<asp:Image ID="Image1" runat="server" ImageUrl="~/seats/screen.png" 
+        Height="25px" Width="388px" />
+</center>
+</div>
+<div>
+  
+</div>
+
+</asp:Content>
+

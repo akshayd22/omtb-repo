@@ -1,0 +1,295 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Drawing;
+
+public partial class _Default : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        
+    }
+    protected void A1_Click(object sender, ImageClickEventArgs e)
+    {
+        this.BackColor = System.Drawing.Color.Blue;
+        
+            
+    }
+
+
+    protected void F1_Click(object sender, ImageClickEventArgs e)
+    {
+
+    }
+
+    public System.Drawing.Color BackColor { get; set; }
+
+    protected void ib_Click(object sender, ImageClickEventArgs e)
+    {
+    }
+    protected void F1_Click1(object sender, EventArgs e)
+    {
+        if (F1.BackColor == Color.Red)
+        {
+            F1.BackColor = Color.Gray;
+        }
+        else if (F1.BackColor == Color.Gray)
+        {
+            F1.BackColor = Color.Red;
+        }
+    }
+    protected void F2_Click(object sender, EventArgs e)
+    {
+        F2.BackColor = System.Drawing.Color.Red;
+    }
+    protected void F3_Click(object sender, EventArgs e)
+    {
+
+        
+            F3.BackColor = System.Drawing.Color.Red;
+       
+            F3.BackColor = System.Drawing.Color.White;
+    }
+    protected void F4_Click(object sender, EventArgs e)
+    {
+        F4.BackColor = System.Drawing.Color.Red;
+    }
+    protected void F5_Click(object sender, EventArgs e)
+    {
+        F5.BackColor = System.Drawing.Color.Red;
+    }
+    protected void F6_Click(object sender, EventArgs e)
+    {
+        F6.BackColor = System.Drawing.Color.Red;
+    }
+    protected void F7_Click(object sender, EventArgs e)
+    {
+        F7.BackColor = System.Drawing.Color.Red;
+    }
+    protected void F8_Click(object sender, EventArgs e)
+    {
+        F8.BackColor = System.Drawing.Color.Red;
+    }
+    protected void F9_Click(object sender, EventArgs e)
+    {
+        F9.BackColor = System.Drawing.Color.Red;
+    }
+    protected void F10_Click(object sender, EventArgs e)
+    {
+        F10.BackColor = System.Drawing.Color.Red;
+    }
+    protected void E1_Click(object sender, EventArgs e)
+    {
+        E1.BackColor = System.Drawing.Color.Red;
+    }
+    protected void E2_Click(object sender, EventArgs e)
+    {
+        E2.BackColor = System.Drawing.Color.Red;
+    }
+    protected void E3_Click(object sender, EventArgs e)
+    {
+        E3.BackColor = System.Drawing.Color.Red;
+    }
+    protected void E4_Click(object sender, EventArgs e)
+    {
+        E4.BackColor = System.Drawing.Color.Red;
+    }
+    protected void E5_Click(object sender, EventArgs e)
+    {
+        E5.BackColor = System.Drawing.Color.Red;
+    }
+    protected void E6_Click(object sender, EventArgs e)
+    {
+        E6.BackColor = System.Drawing.Color.Red;
+    }
+    protected void E7_Click(object sender, EventArgs e)
+    {
+        E7.BackColor = System.Drawing.Color.Red;
+    }
+    protected void E8_Click(object sender, EventArgs e)
+    {
+        E8.BackColor = System.Drawing.Color.Red;
+    }
+    protected void E9_Click(object sender, EventArgs e)
+    {
+        E9.BackColor = System.Drawing.Color.Red;
+    }
+    protected void E10_Click(object sender, EventArgs e)
+    {
+        E10.BackColor = System.Drawing.Color.Red;
+    }
+    protected void D1_Click(object sender, EventArgs e)
+    {
+        D1.BackColor = System.Drawing.Color.Red;
+    }
+    protected void D2_Click(object sender, EventArgs e)
+    {
+        D2.BackColor = System.Drawing.Color.Red;
+    }
+    protected void D3_Click(object sender, EventArgs e)
+    {
+        D3.BackColor = System.Drawing.Color.Red;
+    }
+    protected void D4_Click(object sender, EventArgs e)
+    {
+        D4.BackColor = System.Drawing.Color.Red;
+    }
+    protected void D5_Click(object sender, EventArgs e)
+    {
+        D5.BackColor = System.Drawing.Color.Red;
+    }
+    protected void D6_Click(object sender, EventArgs e)
+    {
+        D6.BackColor = System.Drawing.Color.Red;
+    }
+    protected void D7_Click(object sender, EventArgs e)
+    {
+        D7.BackColor = System.Drawing.Color.Red;
+    }
+    protected void D8_Click(object sender, EventArgs e)
+    {
+        D8.BackColor = System.Drawing.Color.Red;
+    }
+    protected void D9_Click(object sender, EventArgs e)
+    {
+        D9.BackColor = System.Drawing.Color.Red;
+    }
+    protected void D10_Click(object sender, EventArgs e)
+    {
+        D10.BackColor = System.Drawing.Color.Red;
+    }
+    protected void C1_Click(object sender, EventArgs e)
+    {
+        C1.BackColor = System.Drawing.Color.Red;
+    }
+    protected void C2_Click(object sender, EventArgs e)
+    {
+        C2.BackColor = System.Drawing.Color.Red;
+    }
+    protected void C3_Click(object sender, EventArgs e)
+    {
+        C3.BackColor = System.Drawing.Color.Red;
+    }
+    protected void C4_Click(object sender, EventArgs e)
+    {
+        C4.BackColor = System.Drawing.Color.Red;
+    }
+    protected void C5_Click(object sender, EventArgs e)
+    {
+        C5.BackColor = System.Drawing.Color.Red;
+    }
+    protected void C6_Click(object sender, EventArgs e)
+    {
+        C6.BackColor = System.Drawing.Color.Red;
+    }
+    protected void C7_Click(object sender, EventArgs e)
+    {
+        C7.BackColor = System.Drawing.Color.Red;
+    }
+    protected void C8_Click(object sender, EventArgs e)
+    {
+        C8.BackColor = System.Drawing.Color.Red;
+    }
+    protected void C9_Click(object sender, EventArgs e)
+    {
+        C9.BackColor = System.Drawing.Color.Red;
+    }
+    protected void C10_Click(object sender, EventArgs e)
+    {
+        C10.BackColor = System.Drawing.Color.Red;
+    }
+    protected void B1_Click(object sender, EventArgs e)
+    {
+        B1.BackColor = System.Drawing.Color.Red;
+    }
+    protected void B2_Click(object sender, EventArgs e)
+    {
+        B2.BackColor = System.Drawing.Color.Red;
+    }
+    protected void B3_Click(object sender, EventArgs e)
+    {
+        B3.BackColor = System.Drawing.Color.Red;
+    }
+    protected void B4_Click(object sender, EventArgs e)
+    {
+        B4.BackColor = System.Drawing.Color.Red;
+    }
+    protected void B5_Click(object sender, EventArgs e)
+    {
+        B5.BackColor = System.Drawing.Color.Red;
+    }
+    protected void B6_Click(object sender, EventArgs e)
+    {
+        B6.BackColor = System.Drawing.Color.Red;
+    }
+    protected void B7_Click(object sender, EventArgs e)
+    {
+        B7.BackColor = System.Drawing.Color.Red;
+    }
+    protected void B8_Click(object sender, EventArgs e)
+    {
+        B8.BackColor = System.Drawing.Color.Red;
+    }
+    protected void B9_Click(object sender, EventArgs e)
+    {
+        B9.BackColor = System.Drawing.Color.Red;
+    }
+    protected void B10_Click(object sender, EventArgs e)
+    {
+        B10.BackColor = System.Drawing.Color.Red;
+    }
+    protected void A1_Click1(object sender, EventArgs e)
+    {
+        A1.BackColor = System.Drawing.Color.Red;
+    }
+    protected void A2_Click(object sender, EventArgs e)
+    {
+        A2.BackColor = System.Drawing.Color.Red;
+    }
+    protected void A3_Click(object sender, EventArgs e)
+    {
+        A3.BackColor = System.Drawing.Color.Red;
+    }
+    protected void A4_Click(object sender, EventArgs e)
+    {
+        A4.BackColor = System.Drawing.Color.Red;
+    }
+    protected void A5_Click(object sender, EventArgs e)
+    {
+        A5.BackColor = System.Drawing.Color.Red;
+    }
+    protected void A6_Click(object sender, EventArgs e)
+    {
+        A6.BackColor = System.Drawing.Color.Red;
+    }
+    protected void A7_Click(object sender, EventArgs e)
+    {
+        A7.BackColor = System.Drawing.Color.Red;
+    }
+    protected void A8_Click(object sender, EventArgs e)
+    {
+        A8.BackColor = System.Drawing.Color.Red;
+    }
+    protected void A9_Click(object sender, EventArgs e)
+    {
+        A9.BackColor = System.Drawing.Color.Red;
+    }
+    protected void A10_Click(object sender, EventArgs e)
+    {
+        A10.BackColor = System.Drawing.Color.Red;
+    }
+    protected void F1_Click2(object sender, EventArgs e)
+    {
+        if (F1.BackColor == Color.Red)
+        {
+            F1.BackColor = System.Drawing.Color.Gray;
+        }
+        else if (F1.BackColor == Color.Gray)
+        {
+            F1.BackColor = System.Drawing.Color.Red;
+        }
+    }
+}

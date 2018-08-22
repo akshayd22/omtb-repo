@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>http://localhost:37953/Movie/ad/mc.gif</ImageUrl>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>www.Sulekha.net</AlternateText>
+    <Keyword>S</Keyword>
+    <Impressions>50</Impressions>
+    <Caption>This is the caption for Ad#2</Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:9097/Movie/ad/8add8.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>www.Sulekha.net</AlternateText>
+    <Keyword>S</Keyword>
+    <Impressions>40</Impressions>
+    <Caption>This is the caption for Ad#2</Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:9097/Movie/ad/9add9.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>www.Sulekha.net</AlternateText>
+    <Keyword>S</Keyword>
+    <Impressions>30</Impressions>
+    <Caption>This is the caption for Ad#2</Caption>
+  </Ad>
+</Advertisements>

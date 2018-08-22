@@ -1,0 +1,186 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HomePage.master" AutoEventWireup="true" CodeFile="Delhi.aspx.cs" Inherits="Default4" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<br />
+<asp:Image ID="Image1" runat="server" Height="182px" 
+        ImageUrl="~/layout/images/delhibk.jpg" Width="967px"></asp:Image>
+        <br />
+        <div style="height: 398px">
+            <table style="width: 833px; height: 255px;">
+                <tr>
+                    <td style="width: 562px; height: 48px;">
+                       <center> <asp:Label ID="Label1" runat="server" Font-Size="12pt" 
+                            Text="Fun Cinemas, Karol Baag"></asp:Label></center>
+                    </td>
+                    <td style="width: 175px; height: 48px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine0" runat="server" onclick="lbcine0_Click" >08.45AM</asp:LinkButton>
+                        <br />
+                        <asp:ScriptManager ID="ScriptManager1" runat="server">
+                        </asp:ScriptManager>
+                        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
+                            <asp:Timer ID="Timer1" runat="server" Interval="100" ontick="Timer1_Tick">
+                            </asp:Timer>
+                            <asp:Label ID="Label8" runat="server"></asp:Label>
+                            <br />
+                            <br />
+                        </ContentTemplate>
+                        </asp:UpdatePanel>
+                            
+                     
+                         
+                    </center>
+                        &nbsp;</td>
+                    <td style="width: 175px; height: 48px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine5" runat="server" onclick="lbcine5_Click">11:45AM</asp:LinkButton>
+                    </center>
+                        &nbsp;</td>
+                    <td style="width: 175px; height: 48px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine10" runat="server" onclick="lbcine10_Click">02:45PM</asp:LinkButton>
+&nbsp;</center>
+                        &nbsp;</td>
+                    <td style="width: 175px; height: 48px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine15" runat="server" onclick="lbcine15_Click">05:45PM</asp:LinkButton>
+&nbsp;</center>
+                        &nbsp;</td>
+                    <td style="width: 175px; height: 48px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine20" runat="server" onclick="lbcine20_Click">08:45PM</asp:LinkButton>
+&nbsp;</center>
+                        &nbsp;</td>
+                        
+                </tr>
+                <tr>
+                    <td style="width: 562px"><center>
+                        <asp:Label ID="Label7" runat="server" Font-Size="12pt" 
+                            Text="Cinepolis:Viviana mall, Rajpath"></asp:Label></center>
+                    </td>
+                    <td style="width: 175px">
+                    <center>
+                        <asp:LinkButton ID="lbcine1" runat="server" onclick="lbcine_Click">08.45AM</asp:LinkButton>
+                    </center>
+                        &nbsp;</td>
+                    <td style="width: 175px"><center>
+                        <asp:LinkButton ID="lbcine6" runat="server" onclick="lbcine6_Click">11:45AM</asp:LinkButton>
+                        </center></td>
+                    <td style="width: 126px">
+                    <center>
+                        <asp:LinkButton ID="lbcine11" runat="server" onclick="lbcine11_Click">02:45PM</asp:LinkButton>
+                        </center></td>
+                    <td style="width: 97px">
+                    <center>
+                        <asp:LinkButton ID="lbcine16" runat="server" onclick="lbcine16_Click">05:45PM</asp:LinkButton>
+&nbsp;</center></td>
+                    <td style="width: 10px"> 
+                    <center>
+                        <asp:LinkButton ID="lbcine21" runat="server" onclick="lbcine21_Click">08:45PM</asp:LinkButton>
+                    </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 562px; height: 49px;">
+                        <center><asp:Label ID="Label3" runat="server" Font-Size="12pt" 
+                            Text="Inox CR2, Noida"></asp:Label></center>
+                    </td>
+                    <td style="width: 175px; height: 49px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine2" runat="server" onclick="lbcine2_Click">08.45AM</asp:LinkButton>
+                        </center>
+                        </td>
+                    <td style="width: 175px; height: 49px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine7" runat="server" onclick="lbcine7_Click">11:45AM</asp:LinkButton>
+&nbsp;</center>
+                        </td>
+                    <td style="width: 126px; height: 49px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine12" runat="server" onclick="lbcine12_Click">02:45PM</asp:LinkButton>
+                        </center>
+                        </td>
+                    <td style="width: 97px; height: 49px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine17" runat="server" onclick="lbcine17_Click">05:45PM</asp:LinkButton>
+                        </center>
+                        </td>
+                    <td style="width: 77px; height: 49px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine22" runat="server" onclick="lbcine22_Click">08:45PM</asp:LinkButton>
+                    </center>
+                        </td>
+                </tr>
+                <tr>
+                    <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                    <td style="width: 562px; height: 49px;"><center>
+                        <asp:Label ID="Label4" runat="server" Font-Size="12pt" 
+                            Text="Inox R-City, Chandni Chauk"></asp:Label></center>
+                    </td>
+                    <td style="width: 175px; height: 49px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine3" runat="server" onclick="lbcine3_Click">08.45AM</asp:LinkButton>
+                        </center>
+                        </td>
+                    <td style="width: 175px; height: 49px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine8" runat="server" onclick="LinkButton7_Click">11:45AM</asp:LinkButton>
+                        </center>
+                        </td>
+                    <td style="width: 126px; height: 49px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine13" runat="server" onclick="lbcine13_Click">02:45PM</asp:LinkButton>
+&nbsp;</center>
+                        </td>
+                    <td style="width: 97px; height: 49px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine18" runat="server" onclick="lbcine18_Click">05:45PM</asp:LinkButton>
+                        </center>
+                        </td>
+                    <td style="width: 10px; height: 49px;">
+                    <center>
+                        <asp:LinkButton ID="lbcine23" runat="server" onclick="LinkButton19_Click">08:45PM</asp:LinkButton>
+                    </center>
+                        </td>
+                </tr>
+               <tr>
+                    <td style="width: 562px; height: 50px">
+                    <center>
+                        <asp:Label ID="Label6" runat="server" Font-Size="12pt" 
+                            Text="PVR :Phoenix, LowerParel"></asp:Label>
+                            </center>
+                    </td>
+                    <td style="width: 175px; height: 50px">
+                    <center>
+                        <asp:LinkButton ID="lbcine4" runat="server" onclick="LinkButton3_Click">08.45AM</asp:LinkButton>
+                        </center>
+                    </td>
+                    <td style="width: 175px; height: 50px">
+                    <center>
+                        <asp:LinkButton ID="lbcine9" runat="server" onclick="lbcine9_Click">11:45AM</asp:LinkButton>
+                        </center>
+                    </td>
+                    <td style="width: 126px; height: 50px">
+                    <center>
+                        <asp:LinkButton ID="lbcine14" runat="server" onclick="lbcine14_Click">02:45PM</asp:LinkButton>
+                        </center>
+                    </td>
+                    <td style="height: 50px; width: 97px">
+                    <center>
+                        <asp:LinkButton ID="lbcine19" runat="server" onclick="lbcine19_Click">05:45PM</asp:LinkButton>
+                        </center>
+                    </td>
+                    <td style="height: 50px; width: 10px">
+                    <center>&nbsp;&nbsp;
+                        <asp:LinkButton ID="lbcine24" runat="server" onclick="lbcine24_Click">08:45PM</asp:LinkButton>
+                        </center>
+                    </td>
+                </tr>  
+            </table>
+        
+        <br /><br />
+        </div>
+
+</asp:Content>
+

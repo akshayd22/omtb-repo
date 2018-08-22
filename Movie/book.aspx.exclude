@@ -1,0 +1,35 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HomePage.master" AutoEventWireup="true" CodeFile="book.aspx.cs" Inherits="_Default" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<div>
+<center>
+<table>
+<tr>
+
+<td>
+<h2>Please Select Your Region</h2>
+</td>
+</tr>
+<tr>
+<td>
+    <asp:DropDownList ID="ddlselectReg" runat="server" AutoPostBack="True">
+        <asp:ListItem Value="0">&lt;&lt;Select Resion&gt;&gt;</asp:ListItem>
+        <asp:ListItem Value="1">Mumbai</asp:ListItem>
+        <asp:ListItem  Value="2">Delhi</asp:ListItem>
+        <asp:ListItem Value="3">Amritsar</asp:ListItem>
+        <asp:ListItem Value="4">Agra</asp:ListItem>
+
+    </asp:DropDownList>
+</td>
+</tr>
+<tr>
+<td>
+<asp:Button ID="btnOK" runat="server" Text="OK" onclick="btnOK_Click" />
+</td>
+</tr>
+</table>
+</center>
+</div>
+
+</asp:Content>
+

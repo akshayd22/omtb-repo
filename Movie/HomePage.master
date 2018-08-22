@@ -1,0 +1,143 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomePage.master.cs" Inherits="HomePage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ONLINE MOVIE TICKIT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="imagslider.css" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.setup.js"></script>
+   
+</head>
+<body id="top">
+<form id="form1" runat="server">
+<div class="wrapper col1">
+  <div id="topbar">
+    <p>Tel:8898216510 | Mail:akshaydamare9@gamil.com</p>
+    
+    <ul>
+       <li>
+          <a href="Login.aspx" style="color: #FFFFFF; font-weight: bold;">Login</a></li>
+       <li>
+           <a href="Registration.aspx" style="color: #FFFFFF; font-weight: bold;">Register</a></li>
+        <li>
+           <a href="AdinLogin.aspx" style="color: #FFFFFF; font-weight: bold;">Admin</a></li>
+        
+      
+    </ul>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="HomePage.aspx">Cinema.com</a></h1>
+      <p>ONLINE MOVIE TICKIT BOOKING</p>
+    </div>
+    <div class="fl_right"> <a href="Login.aspx"><img src="movie-reels-and-popcorn.png" alt="Cinema.com" height="120px" width="400px" /></a> </div>
+
+    <br class="clear" />
+  </div>
+                
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="topnav">
+    <ul>
+      <li><a href="HomePage.aspx">Homepage</a></li>
+      <li><a href="Login.aspx">Tickit Booking</a></li>
+          <li ><a href="Trailer.aspx">Trailer</a></li>
+          <li class="last"><a href="Entertenment_news.aspx">Promo Event</a></li>   
+          <li><a href="About%20Us.aspx">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; About Us</a></li>
+          <li><a href="Contact us.aspx">Contact Us</a></li>
+    </ul>
+
+    <br class="clear" />
+</div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  
+  
+  
+  
+  
+  </div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="container">
+    <div id="content">
+	
+	<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+       
+
+
+
+        </asp:ContentPlaceHolder>
+ </div>
+    
+    <br class="clear" />
+  </div>
+  </div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper col6">
+  <div id="footer">
+    <div id="newsletter">
+      <h2>Stay In The Know !</h2>
+      <p>Please enter your email to join our mailing list</p>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>News Letter</legend>
+          <input type="text" value="Enter Email Here&hellip;"  onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
+          <input type="submit" name="news_go" id="news_go" value="GO" />
+        </fieldset>
+      </form>
+      <p>To unsubscribe please <a href="#">click here &raquo;</a></p>
+    </div>
+    <div class="footbox">
+      <h2>MOVIE REVIEWS</h2>
+      <ul>
+        <li><a href="Entertenment_news.aspx">Entertainment News</a></li>
+        <li><a href="#">Film Reviews</a></li>
+        <li><a href="#">Press Coverage</a></li>
+        <li><a href="#">Public Relations</a></li>
+       </ul>
+    </div>
+    <div class="footbox">
+      <h2>Help</h2>
+      <ul>
+        <li><a href="SeatMap.aspx">Sitemap</a></li>
+        <li><a href="FAQs.aspx">FAQs</a></li>
+        <li><a href="Terms_Conditions.aspx">Terms and Conditions</a></li>
+        <li><a href="privacy_Policy.aspx">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>LATEST MOVIES</h2>
+      <ul>
+        <li><a href="http://localhost:37953/Movie/Trailer.aspx">Now Showing</a></li>
+        <li><a href="http://localhost:37953/Movie/Trailer.aspx">Coming Soon</a></li>
+        <li><a href="http://local.qh-terminator.com/cgi-bin/qhaccess_block?url=http://www.popsugar.com/celebrity/Real-Celebrity-Names-35314758&cat=Entertainment&ip=172.16.0.63&user=-&reason=Group">Movie Celebrities</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col7">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">Cinema.com</a></p>
+    <p class="fl_right">Template by  <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">Akshay Damare</a></p>
+    <br class="clear" />
+  </div>
+</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,151 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HomePage.master" AutoEventWireup="true" CodeFile="AdminRegister.aspx.cs" Inherits="_Default" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<div>
+<br /><br />
+<table align="center">
+<tr>
+        <td style="width: 437px" align="center">
+        Admin Registration...
+            &nbsp;</td>
+        
+    </tr>
+    <tr>
+        <td class="right" style="width: 437px" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <asp:Label ID="Label1" runat="server" Text="Full Name: " Font-Bold="True" 
+                Font-Names="Copperplate Gothic Bold" Font-Size="Large" 
+                style="text-align: right"></asp:Label>
+        </td>
+        <td style="width: 556px">
+            <asp:TextBox ID="txtFullName" runat="server" 
+                Font-Names="Copperplate Gothic Bold"></asp:TextBox>
+        &nbsp;
+            </td>
+    </tr>
+    <tr>
+        <td class="right" style="width: 437px; height: 32px;" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<asp:Label ID="Label2" runat="server" Text="Age: " Font-Bold="True" 
+                Font-Names="Copperplate Gothic Bold" Font-Size="Large"></asp:Label>
+        </td>
+        <td style="height: 32px; width: 556px;">
+            <asp:TextBox ID="txtAge" runat="server" Font-Names="Copperplate Gothic Bold"></asp:TextBox>
+        &nbsp;
+            </td>
+    </tr>
+    <tr>
+        <td class="right" style="width: 437px; height: 40px;" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label3" runat="server" Text="Gender: " Font-Bold="True" 
+                Font-Names="Copperplate Gothic Bold" Font-Size="Large"></asp:Label>
+        </td>
+        <td style="height: 40px; width: 556px;">
+            <asp:DropDownList ID="ddlgender" runat="server">
+                <asp:ListItem>Male</asp:ListItem>
+                <asp:ListItem>Female</asp:ListItem>
+            </asp:DropDownList>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+    </tr>
+    <tr>
+        <td class="right" style="width: 437px" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label4" runat="server" Text="Mobile No.: " Font-Bold="True" 
+                Font-Names="Copperplate Gothic Bold" Font-Size="Large"></asp:Label>
+        </td>
+        <td style="width: 556px">
+            <asp:TextBox ID="txtNumber" runat="server" Font-Names="Copperplate Gothic Bold"></asp:TextBox>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+    </tr>
+    <tr>
+        <td class="right" style="width: 437px" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label5" runat="server" Text="Email-ID: " Font-Bold="True" 
+                Font-Names="Copperplate Gothic Bold" Font-Size="Large"></asp:Label>
+        </td>
+        <td style="width: 556px">
+            <asp:TextBox ID="txtEmail" runat="server" Font-Names="Copperplate Gothic Bold"></asp:TextBox>
+        &nbsp;
+            </td>
+    </tr>
+    <tr>
+        <td class="right" style="width: 437px" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label6" runat="server" Text="Username: " Font-Bold="True" 
+                Font-Names="Copperplate Gothic Bold" Font-Size="Large"></asp:Label>
+        </td>
+        <td style="width: 556px">
+            <asp:TextBox ID="txtUsername" runat="server" 
+                Font-Names="Copperplate Gothic Bold"></asp:TextBox>
+        &nbsp;
+            <asp:Label ID="lblchekuser" runat="server" Visible="False"></asp:Label>
+            </td>
+    </tr>
+    <tr>
+        <td class="right" style="width: 437px" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <asp:Label ID="Label7" runat="server" Text="Password: " Font-Bold="True" 
+                Font-Names="Copperplate Gothic Bold" Font-Size="Large"></asp:Label>
+        </td>
+        <td style="width: 556px">
+            <asp:TextBox ID="txtPassword" runat="server" 
+                Font-Names="Copperplate Gothic Bold"></asp:TextBox>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+    </tr>
+    <tr>
+        <td class="right" style="width: 437px" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <asp:Label ID="Label8" runat="server" Text="Confirm Password: " 
+                Font-Bold="True" Font-Names="Copperplate Gothic Bold" Font-Size="Large"></asp:Label>
+        </td>
+        <td style="width: 556px">
+            <asp:TextBox ID="txtConfirmPassword" runat="server" Font-Names="Copperplate Gothic Bold" 
+                Height="23px" Width="169px"></asp:TextBox>
+        &nbsp;
+            </td>
+    </tr>
+    <tr>
+        <td class="right" style="width: 437px" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label9" runat="server" Text="Confirm You Are Not A Robot: " 
+                Font-Bold="True" Font-Names="Copperplate Gothic Bold" Font-Size="Large"></asp:Label>
+        </td>
+        <td style="width: 556px">
+            <asp:Image ID="Image1" runat="server" Height="16px" Width="100px" />
+            <br />
+            <br />
+            <asp:TextBox ID="txtImage" runat="server" Font-Names="Copperplate Gothic Bold"></asp:TextBox>
+&nbsp;&nbsp;
+            <asp:Button ID="btnText" runat="server" Text="Text" Font-Bold="True" 
+                Font-Names="Copperplate Gothic Bold" Font-Size="Large" />
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 437px" align="center">
+            &nbsp;</td>
+        <td style="width: 556px">
+            &nbsp;</td>
+    </tr>
+    <tr>
+        <td style="width: 437px" align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button 
+                ID="btnSubmit" runat="server" style="text-align: right" 
+                Text="Submit" Font-Bold="True" Font-Names="Century Schoolbook" 
+                Font-Size="Large" Height="32px" Width="94px" onclick="btnSubmit_Click" />
+        </td>
+        <td style="width: 556px">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnReset" runat="server" Text="Reset" Font-Bold="True" 
+                Font-Names="Century Schoolbook" Font-Size="Large" Height="30px" 
+                Width="79px" />
+        </td>
+    </tr>
+
+</table>
+<br /><br />
+</div>
+</asp:Content>
+
