@@ -1,1 +1,1 @@
-# omtb repo
+# Online Movie Ticket Booking System
